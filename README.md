@@ -1,4 +1,4 @@
-# Hyper-V.Linux.Shared Graphics
+# Hyper-V.Linux.WSLg Graphics
 https://www.google.com/search?q=hyper-v+ubuntu+graphics
 
 discuss: https://superuser.com/questions/1660150/change-screen-resolution-of-ubuntu-vm-in-hyper-v
