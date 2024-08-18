@@ -27,5 +27,11 @@ https://github.com/seflerZ/oneclick-gpu-pv
 
 [VA-API video acceleration](https://github.com/seflerZ/oneclick-gpu-pv?tab=readme-ov-file#va-api-video-acceleration)
 
+Host
+```ps1
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
+.\ubuntu-gpu-pv.ps1
+```
+
 ## Hyperv Linux Guest GPU PV
 https://gist.github.com/OlfillasOdikno/f87a4444f00984625558dad053255ace
