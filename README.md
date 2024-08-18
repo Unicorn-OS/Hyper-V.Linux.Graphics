@@ -15,6 +15,11 @@ Set-VM -VMName $vm -GuestControlledCacheTypes $true -LowMemoryMappedIoSpace 1GB 
 Add-VMGpuPartitionAdapter -VMName $vm
 ```
 
+remove, cleanup:
+```
+Remove-VMGpuPartitionAdapter -VMName $vm
+```
+
 # Source:
 ## oneclick-gpu-pv
 >Enable GPU-PV easily
