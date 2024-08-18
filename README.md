@@ -12,3 +12,10 @@ $vm = "ubuntupv"
 Set-VM -VMName $vm -GuestControlledCacheTypes $true -LowMemoryMappedIoSpace 1GB -HighMemoryMappedIoSpace 32GB
 Add-VMGpuPartitionAdapter -VMName $vm
 ```
+
+# Source:
+## oneclick-gpu-pv
+>Enable GPU-PV easily
+https://github.com/seflerZ/oneclick-gpu-pv
+
+[VA-API video acceleration](https://github.com/seflerZ/oneclick-gpu-pv?tab=readme-ov-file#va-api-video-acceleration)
